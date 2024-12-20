@@ -1,6 +1,3 @@
-# skripsi
-My Skripsi~
+Hello! I make a repository to store my bachelor thesis experiment!
 
-To do :
-Deploy model
-Create UI
+In this repo, I store the code to train 3
