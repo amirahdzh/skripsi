@@ -4,7 +4,7 @@ This repository contains the demo program for the Skripsi project by Amirah Dzat
 
 ## Project Overview
 
-This project demonstrates various experiments using different models and augmentation techniques for image classification. The models used include VanillaCNN, InceptionV3, and ResNet50 with different augmentation strategies.
+This project demonstrates various experiments using different models and augmentation techniques for chili disease classification with small dataset (+-500 images with 5 classes). The models used include VanillaCNN, InceptionV3, and ResNet50 with different augmentation strategies.
 
 ## Models
 
@@ -26,7 +26,8 @@ No additional augmentation is applied to the images.
 Includes basic augmentations such as random flipping, rotation, and brightness adjustments.
 
 ### RandAugment
-A more advanced augmentation technique that applies a random combination of augmentations to each image.
+A more advanced augmentation technique that applies a random combination of augmentations to each image. <br>
+Read more about [RandAugment](https://openaccess.thecvf.com/content_CVPRW_2020/html/w40/Cubuk_Randaugment_Practical_Automated_Data_Augmentation_With_a_Reduced_Search_Space_CVPRW_2020_paper.html).
 
 ## Tuning Parameters
 
@@ -60,7 +61,8 @@ Indicates whether the base model layers are trainable or frozen during training.
 
 ### Dataset
 
-The dataset should be uploaded to Google Drive and mounted in the notebook. The dataset should be in a zip file named `dataset_split.zip` and should be placed in the path `/content/drive/MyDrive/skripsi/`. (or you can change the initial path with your desired path directly on the notebook)
+The dataset should be uploaded to Google Drive and mounted in the notebook. The dataset should be in a zip file named `dataset_split.zip` and should be placed in the path `/content/drive/MyDrive/skripsi/`. (or you can change the initial path with your desired path directly on the notebook). <br>
+Click this [link](https://drive.google.com/file/d/1Xn5DmKw8tt7jsaFVueiqLFMVaxjN0duH/view?usp=drive_link) to get access to dataset.
 
 ## Experiments
 
